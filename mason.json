@@ -1,0 +1,14 @@
+{
+  "name": "getting-started-php",
+  "description": "Simple PHP app that rotates a series of quotes.",
+  "repository": "https://github.com/codemasonhq/getting-started-php",
+  "masonVersion": "v1",
+  "type": "application",
+  "services": [
+    {
+      "name": "web",
+      "image": "${app}",
+      "ports": ["80"]
+    }
+  ]
+}
