@@ -18,7 +18,7 @@ Your app should now be running on [localhost](http://localhost).
 ```
 $ mason create getting-started-php
 $ git push codemason master
-$ mason services:create getting-started-php/web -p 80
+$ mason services:create getting-started-php/web 
 ```
 
 or 
